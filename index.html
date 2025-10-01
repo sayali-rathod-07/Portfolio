@@ -7,6 +7,78 @@
     <link href="https://fonts.google.com/specimen/Sriracha?lang=en_Latn&categoryFilters=Feeling:%2FExpressive%2FActive;Calligraphy:%2FScript%2FHandwritten" rel="stylesheet">
 
     <style>
+     
+        .projects {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background: rgba(9, 9, 62, 0.85);
+            border-radius: 20px;
+            box-shadow: 0 4px 24px rgba(151, 83, 216, 0.18);
+            padding: 40px 32px;
+            margin: 48px auto 0 auto;
+            max-width: 900px;
+        }
+        .projects h1 {
+            color: rgb(151, 83, 216);
+            font-size: 2.2rem;
+            margin-bottom: 24px;
+            text-align: center;
+            letter-spacing: 1px;
+        }
+        .project {
+            background: rgba(2, 2, 52, 0.8);
+            border-radius: 14px;
+            box-shadow: 0 2px 12px rgba(134, 134, 229, 0.12);
+            margin: 18px 0;
+            padding: 28px 32px;
+            width: 80%;
+            max-width: 600px;
+            color: white;
+            transition: transform 0.2s, box-shadow 0.2s;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+        .project:hover {
+            transform: scale(1.03);
+            box-shadow: 0 6px 24px rgba(151, 83, 216, 0.25);
+        }
+        .project h2 {
+            color: rgb(134, 134, 229);
+            font-size: 1.5rem;
+            margin-bottom: 8px;
+        }
+        .project p {
+            color: #bdbdbd;
+            font-size: 1.1rem;
+            margin-bottom: 0;
+        }
+        @media (max-width: 900px) {
+            .projects {
+                max-width: 98vw;
+                padding: 24px 0 24px 0;
+            }
+            .project {
+                width: 95vw;
+                padding: 18px 10px;
+            }
+        }
+        @media (max-width: 600px) {
+            .projects {
+                max-width: 100vw;
+                padding: 8px 0 8px 0;
+                border-radius: 10px;
+            }
+            .project {
+                width: 98vw;
+                padding: 10px 6px;
+                font-size: 0.95rem;
+            }
+            .projects h1 {
+                font-size: 1.4rem;
+            }
+        }
         * {
             margin:0;
             padding:0;
@@ -79,7 +151,7 @@
         .secondSection{
             max-width:80vw;
             margin:auto;
-            height:80vh;
+            height:40vh;
         }
         .secondSection h1{
            font-size:1.9rem; 
