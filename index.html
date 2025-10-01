@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO</title>
+    <link href="https://fonts.google.com/specimen/Sriracha?lang=en_Latn&categoryFilters=Feeling:%2FExpressive%2FActive;Calligraphy:%2FScript%2FHandwritten" rel="stylesheet">
+
+    <style>
+        * {
+            margin:0;
+            padding:0;
+        }
+        body{
+            background-color: rgb(2, 2, 52);
+            color: white;
+            font-family: 'Sriracha' , sans-serif;
+        }
+        nav {
+            display:flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(9, 9, 62);
+        }
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            list-style: none;
+            margin: 0 23px ;
+            color:rgb(106, 106, 237);
+        }
+         nav ul li:hover{
+            cursor: pointer;
+            transform: scale(1.1);
+         }
+        nav ul li a{
+            text-decoration: none;
+            color:white;
+        }
+        nav ul li a:hover{
+            color:rgb(118, 118, 224);
+            font-size:1.1rem;
+        }
+        main hr{
+            border:0;
+            background:rgb(134, 134, 229);
+            height:1.2px;
+            margin:40px 84px;
+        }
+        .left{
+            font-size: 1.7rem;
+        }
+        .firstSection{
+            display:flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 110px 0 ;
+        }
+        .firstSection > div{
+            width: 30%;
+        }
+        .leftSection{
+            /* background-color: red; */
+            font-size: 3rem;
+            margin-top: 30px 0 ;
+        }
+         .rightSection img{
+            width:80%;
+        }
+        .purple{
+            color:rgb(151, 83, 216);
+        }
+        .text-gray{
+           color:gray; 
+        }
+        .secondSection{
+            max-width:80vw;
+            margin:auto;
+            height:80vh;
+        }
+        .secondSection h1{
+           font-size:1.9rem; 
+        }
+        .secondSection .box {
+            background: white;
+            width: 70vw;
+            height:2px;width:100%;
+            margin:55px 0 ;
+            display: flex;
+            
+        }
+        .secondSection .vertical{
+            height:90px;
+            width:1px;
+            background-color: white;
+            margin: 0 120px;
+        }
+        .image-top{
+            width:25px;
+            position:relative;
+            top:-40px;
+            left:-10px;
+        }
+        .vertical-title{
+            position:relative ;
+            top:75px;
+            width:150px;
+        }
+        .vertical-desc{
+            position:relative;
+            top:150px;
+            color:gray;
+            width:150px;
+            font-size:15px;
+        }
+        footer{
+            background-color:rgb(13, 13, 17);
+            height:200px;
+        }
+        .flex{
+            display:flex;
+            justify-content: space-evenly;
+            align-items: center;
+            height:100%;
+
+        }
+        .footer img{
+            cursor: pointer;
+        }
+        .footer img:hover{
+            transform: scale(1.1);
+            transition: all 0.3s ease-in-out;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left"><bold>Sayali's</bold> Portfolio</div>
+            <div class="right">
+                <ul>
+                  <li> <a href="/"> Home</a></li>
+                    <li> <a href="/"> About</a></li>
+                    <li> <a href="/"> Services</a></li>
+                    <li> <a href="/"> Projects</a></li>
+                    <li> <a href="/"> Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, My name is <span class="purple">Sayali</span>
+                <div>I am a web developer</div>
+                <div>Welcome to my portfolio</div>
+            </div>
+             <div class="rightSection">
+                <img src="bg.png" alt="developer image">
+             </div>
+        </section>
+ <hr>
+        <section class="secondSection">
+            <span class="gray">What I have done so far</span>
+            <h1>Work Experience</h1>
+
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="HTML.png" alt="HTML developer">
+                    <div class="vertical-title">
+                        HTML developer
+                    </div>
+                    <div class="vertical-desc">
+                      I am a HTML developer with 0.2 years of experience. 
+                    </div>
+                    
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="CSS.png" alt="CSS developer">
+                    <div class="vertical-title">
+                        CSS developer
+                    </div>
+                    <div class="vertical-desc">
+                      I am a CSS developer with 0.2 years of experience. 
+                    </div>
+                    
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="JS.png" alt="JS developer">
+                    <div class="vertical-title">
+                        JS developer
+                    </div>
+                    <div class="vertical-desc">
+                      I am a JS developer with 0.2 years of experience. 
+                    </div>
+                    
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="JAVA.png" alt="JAVA developer">
+                    <div class="vertical-title">
+                        JAVA developer
+                    </div>
+                    <div class="vertical-desc">
+                      I am a JAVA developer with 0.2 years of experience. 
+                    </div>
+                    
+                </div>
+                 <div class="vertical">
+                    <img class="image-top" src="Python.png" alt="Python developer">
+                    <div class="vertical-title">
+                        Python developer
+                    </div>
+                    <div class="vertical-desc">
+                      I am a Python developer with 0.2 years of experience. 
+                    </div>
+                    
+                </div>
+                
+               
+            </div>
+
+        </section>
+    </main>
+    <footer>
+    <div class="flex">
+        <div class="footer">
+            <a href="https://www.instagram.com/sayali_rathod_06/" target="_blank">
+                <img src="instagram.png" alt="Instagram" style="height:100px; width:100px;">
+            </a>
+        </div>
+        <div class="footer">
+            <a href="https://www.linkedin.com/in/sayali-rathod-a1432937b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+                <img src="linkedin.png" alt="LinkedIn" style="height:100px; width:100px;">
+            </a>
+        </div>
+        <div class="footer">
+            <a href="https://github.com/sayali-rathod-07" target="_blank">
+                <img src="github.png" alt="GitHub" style="height:100px; width:100px;">
+            </a>
+        </div>
+        <div class="footer">
+            <a href="mailto:sayalirathod9966@gmail.com" target="_blank">
+                <img src="mail.png" alt="Contact Me" style="height:100px; width:100px;">
+            </a>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
