@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PORTFOLIO</title>
-    <link href="https://fonts.google.com/specimen/Sriracha?lang=en_Latn&categoryFilters=Feeling:%2FExpressive%2FActive;Calligraphy:%2FScript%2FHandwritten" rel="stylesheet">
+    <link
+        href="https://fonts.google.com/specimen/Sriracha?lang=en_Latn&categoryFilters=Feeling:%2FExpressive%2FActive;Calligraphy:%2FScript%2FHandwritten"
+        rel="stylesheet">
 
     <style>
-     
         .projects {
             display: flex;
             flex-direction: column;
@@ -19,6 +21,7 @@
             margin: 48px auto 0 auto;
             max-width: 900px;
         }
+
         .projects h1 {
             color: rgb(151, 83, 216);
             font-size: 2.2rem;
@@ -26,6 +29,7 @@
             text-align: center;
             letter-spacing: 1px;
         }
+
         .project {
             background: rgba(2, 2, 52, 0.8);
             border-radius: 14px;
@@ -40,205 +44,246 @@
             flex-direction: column;
             align-items: flex-start;
         }
+
         .project:hover {
             transform: scale(1.03);
             box-shadow: 0 6px 24px rgba(151, 83, 216, 0.25);
         }
+
         .project h2 {
             color: rgb(134, 134, 229);
             font-size: 1.5rem;
             margin-bottom: 8px;
         }
+
         .project p {
             color: #bdbdbd;
             font-size: 1.1rem;
             margin-bottom: 0;
         }
+
         @media (max-width: 900px) {
             .projects {
                 max-width: 98vw;
                 padding: 24px 0 24px 0;
             }
+
             .project {
                 width: 95vw;
                 padding: 18px 10px;
             }
         }
+
         @media (max-width: 600px) {
             .projects {
                 max-width: 100vw;
                 padding: 8px 0 8px 0;
                 border-radius: 10px;
             }
+
             .project {
                 width: 98vw;
                 padding: 10px 6px;
                 font-size: 0.95rem;
             }
+
             .projects h1 {
                 font-size: 1.4rem;
             }
         }
+
         * {
-            margin:0;
-            padding:0;
+            margin: 0;
+            padding: 0;
         }
-        body{
+
+        body {
             background-color: rgb(2, 2, 52);
             color: white;
-            font-family: 'Sriracha' , sans-serif;
+            font-family: 'Sriracha', sans-serif;
         }
+
         nav {
-            display:flex;
+            display: flex;
             justify-content: space-around;
             align-items: center;
             height: 80px;
             background-color: rgb(9, 9, 62);
         }
+
         nav ul {
             display: flex;
             justify-content: center;
         }
+
         nav ul li {
             list-style: none;
-            margin: 0 23px ;
-            color:rgb(106, 106, 237);
+            margin: 0 23px;
+            color: rgb(106, 106, 237);
         }
-         nav ul li:hover{
+
+        nav ul li:hover {
             cursor: pointer;
             transform: scale(1.1);
-         }
-        nav ul li a{
+        }
+
+        nav ul li a {
             text-decoration: none;
-            color:white;
+            color: white;
         }
-        nav ul li a:hover{
-            color:rgb(118, 118, 224);
-            font-size:1.1rem;
+
+        nav ul li a:hover {
+            color: rgb(118, 118, 224);
+            font-size: 1.1rem;
         }
-        main hr{
-            border:0;
-            background:rgb(134, 134, 229);
-            height:1.2px;
-            margin:40px 84px;
+
+        main hr {
+            border: 0;
+            background: rgb(134, 134, 229);
+            height: 1.2px;
+            margin: 40px 84px;
         }
-        .left{
+
+        .left {
             font-size: 1.7rem;
         }
-        .firstSection{
-            display:flex;
+
+        .firstSection {
+            display: flex;
             justify-content: space-around;
             align-items: center;
-            margin: 110px 0 ;
+            margin: 110px 0;
         }
-        .firstSection > div{
+
+        .firstSection>div {
             width: 30%;
         }
-        .leftSection{
+
+        .leftSection {
             /* background-color: red; */
             font-size: 3rem;
-            margin-top: 30px 0 ;
+            margin-top: 30px 0;
         }
-         .rightSection img{
-            width:80%;
+
+        .rightSection img {
+            width: 80%;
             border-radius: 20px;
             box-shadow: 60px 60px 60px rgb(71, 71, 212);
 
         }
-         .rightSection img:hover{
+
+        .rightSection img:hover {
             transform: scale(1.1);
             transition: all 0.3s ease-in-out;
-         }
-        .purple{
-            color:rgb(151, 83, 216);
         }
+
+        .purple {
+            color: rgb(151, 83, 216);
+        }
+
         .purple:hover {
             color: pink;
             cursor: pointer;
-              transform: scale(1.1);
+            transform: scale(1.1);
             transition: color 0.3s ease-in-out;
-          
+
         }
-        .text-gray{
-           color:gray; 
+
+        .text-gray {
+            color: gray;
         }
-        .secondSection{
-            max-width:80vw;
-            margin:auto;
-            height:40vh;
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+            height: 40vh;
         }
-        .secondSection h1{
-           font-size:1.9rem; 
+
+        .secondSection h1 {
+            font-size: 1.9rem;
         }
+
         .secondSection .box {
             background: white;
             width: 70vw;
-            height:2px;width:100%;
-            margin:55px 0 ;
+            height: 2px;
+            width: 100%;
+            margin: 55px 0;
             display: flex;
-            
+
         }
-        .secondSection .vertical{
-            height:90px;
-            width:1px;
+
+        .secondSection .vertical {
+            height: 90px;
+            width: 1px;
             background-color: white;
             margin: 0 120px;
         }
-        .image-top{
-            width:25px;
-            position:relative;
-            top:-40px;
-            left:-10px;
+
+        .image-top {
+            width: 25px;
+            position: relative;
+            top: -40px;
+            left: -10px;
         }
-        .vertical-title{
-            position:relative ;
-            top:75px;
-            width:150px;
+
+        .vertical-title {
+            position: relative;
+            top: 75px;
+            width: 150px;
         }
-        .vertical-desc{
-            position:relative;
-            top:150px;
-            color:gray;
-            width:150px;
-            font-size:15px;
+
+        .vertical-desc {
+            position: relative;
+            top: 150px;
+            color: gray;
+            width: 150px;
+            font-size: 15px;
         }
-        footer{
-            background-color:rgb(8, 8, 71);
-            height:200px;
+
+        footer {
+            background-color: rgb(8, 8, 71);
+            height: 200px;
         }
-        .flex{
-            display:flex;
+
+        .flex {
+            display: flex;
             justify-content: space-evenly;
             align-items: center;
-            height:100%;
+            height: 100%;
 
         }
-        .footer img{
+
+        .footer img {
             cursor: pointer;
-           
+
         }
 
-        .footer img:hover{
+        .footer img:hover {
             transform: scale(1.1);
             transition: all 0.3s ease-in-out;
         }
-        .text{
+
+        .text {
             font-size: 1.5rem;
             margin-top: 20px;
         }
-        .School{
+
+        .School {
             font-size: 2.2rem;
             font-weight: bold;
             color: gray;
             margin-top: 10px;
         }
-        .School:hover{
+
+        .School:hover {
             color: pink;
             cursor: pointer;
             transform: scale(1.1);
             transition: all 0.3s ease-in-out;
         }
-        .left:hover{
+
+        .left:hover {
             color: pink;
             cursor: pointer;
             transform: scale(1.1);
@@ -246,13 +291,16 @@
         }
     </style>
 </head>
+
 <body>
     <header>
         <nav>
-            <div class="left" style="font-size:60px;"><bold>Sayali's</bold> Portfolio</div>
+            <div class="left" style="font-size:60px;">
+                <bold>Sayali's</bold> Portfolio
+            </div>
             <div class="right">
                 <ul>
-                  <li> <a href="/"> Home</a></li>
+                    <li> <a href="/"> Home</a></li>
                     <li> <a href="#firstSection"> About</a></li>
                     <li> <a href="/"> Services</a></li>
                     <li> <a href="/"> Projects</a></li>
@@ -269,11 +317,11 @@
                 <div class="text">Currently pursuing a degree in Computer Science at</div>
                 <div class="School">Scaler School of Technology</div>
             </div>
-             <div class="rightSection">
+            <div class="rightSection">
                 <img src="Sayali.png" alt="developer image" style="width:600px; height:1000px">
-             </div>
+            </div>
         </section>
- <hr>
+        <hr>
         <section class="secondSection">
             <span class="gray">What I have done so far</span>
             <h1>Work Experience</h1>
@@ -285,9 +333,9 @@
                         HTML developer
                     </div>
                     <div class="vertical-desc">
-                      I am a HTML developer with 0.2 years of experience. 
+                        I am a HTML developer with 0.2 years of experience.
                     </div>
-                    
+
                 </div>
                 <div class="vertical">
                     <img class="image-top" src="CSS.png" alt="CSS developer">
@@ -295,9 +343,9 @@
                         CSS developer
                     </div>
                     <div class="vertical-desc">
-                      I am a CSS developer with 0.2 years of experience. 
+                        I am a CSS developer with 0.2 years of experience.
                     </div>
-                    
+
                 </div>
                 <div class="vertical">
                     <img class="image-top" src="JS.png" alt="JS developer">
@@ -305,9 +353,9 @@
                         JS developer
                     </div>
                     <div class="vertical-desc">
-                      I am a JS developer with 0.2 years of experience. 
+                        I am a JS developer with 0.2 years of experience.
                     </div>
-                    
+
                 </div>
                 <div class="vertical">
                     <img class="image-top" src="JAVA.png" alt="JAVA developer">
@@ -315,22 +363,22 @@
                         JAVA developer
                     </div>
                     <div class="vertical-desc">
-                      I am a JAVA developer with 0.2 years of experience. 
+                        I am a JAVA developer with 0.2 years of experience.
                     </div>
-                    
+
                 </div>
-                 <div class="vertical">
+                <div class="vertical">
                     <img class="image-top" src="Python.png" alt="Python developer">
                     <div class="vertical-title">
                         Python developer
                     </div>
                     <div class="vertical-desc">
-                      I am a Python developer with 0.2 years of experience. 
+                        I am a Python developer with 0.2 years of experience.
                     </div>
-                    
+
                 </div>
-                
-               
+
+
             </div>
 
         </section>
@@ -338,65 +386,81 @@
             <h1>Projects</h1>
             <div class="project">
                 <h2><a href="https://sayali-rathod-07.github.io/PhotoGallery/">Photo gallery</a></h2>
-                <p>Description of photo gallery project.</p>
+                <p>This project is a personal photo gallery that I built while exploring CSS classes and box-based
+                    layouts. I implemented custom CSS styling to create an organized, visually appealing gallery and
+                    practice responsive design techniques.</p>
             </div>
             <div class="project">
                 <h2><a href="https://sayali-rathod-07.github.io/Instagram_Profile_Page/">Instagram profile page</a></h2>
-                <p>Description of Instagram profile page.</p>
+                <p>A fully coded Instagram profile page designed with HTML and CSS. This project showcases my ability to
+                    replicate real-world UI designs, implement responsive layouts, and use CSS for styling interactive
+                    and visually structured web pages.</p>
             </div>
             <div class="project">
                 <h2><a href="https://sayali-rathod-07.github.io/Retail_webpage/">Retail website</a></h2>
-                <p>Description of retail website project.</p>
+                <p>A retail webpage designed using HTML and CSS, showcasing product listings and layout design while
+                    demonstrating responsive and visually appealing styling techniques</p>
             </div>
             <div class="project">
                 <h2><a href="https://sayali-rathod-07.github.io/College-Admission-form/">College Admission form</a></h2>
-                <p>Description of college admission form project.</p>
+                <p>A college admission form built using HTML and CSS, demonstrating form structure, input validation,
+                    and user-friendly styling.</p>
             </div>
             <div class="project">
                 <h2><a href="https://sayali-rathod-07.github.io/webdev/">Dog Gallery</a></h2>
-                <p>Description of dog gallery project.</p>
+                <p>A dog gallery website built using HTML and CSS, featuring a clean layout and visually appealing
+                    presentation of images.</p>
             </div>
-             <div class="project">
+            <div class="project">
                 <h2><a href="https://sayali-rathod-07.github.io/weekend-planlist/">Weekend Planlist</a></h2>
-                <p>Description of weekend planlist project.</p>
+                <p>A Weekend Planlist web page built using HTML and CSS, designed to organize and display tasks in a
+                    clean and structured layout.</p>
             </div>
-             <div class="project">
-                <h2><a href="https://sayali-rathod-07.github.io/Movie-Collection/">My favourite movie collection</a></h2>
-                <p>Description of my favourite movie collection project.</p>
+            <div class="project">
+                <h2><a href="https://sayali-rathod-07.github.io/Movie-Collection/">My favourite movie collection</a>
+                </h2>
+                <p>This project is a Marvel-themed movie collection table built with HTML and CSS, showcasing my
+                    favorite Avengers movies in an organized table format with custom styling inspired by the Marvel
+                    universe.</p>
             </div>
             <div class="project">
                 <h2><a href="https://sayali-rathod-07.github.io/Semantic-Web-Page/">Semantic Web Page</a></h2>
-                <p>Description of semantic web page project.</p>
-            </div> 
-             <div class="project">
+                <p>A Harry Potter–themed semantic webpage featuring all Hogwarts houses, built using HTML and CSS with
+                    proper semantic structure and styled for visual appeal.</p>
+            </div>
+            <div class="project">
                 <h2><a href="https://sayali-rathod-07.github.io/Grid-Layout/">Grid Layout</a></h2>
-                <p>Description of grid layout project.</p>
-            </div> 
+                <p>This project is a BTS-themed web page created with HTML and CSS, featuring all seven members in a
+                    responsive grid layout. Each card includes member details and popular songs, demonstrating organized
+                    content and themed styling.</p>
+            </div>
         </div>
     </main>
     <footer>
-    <div class="flex">
-        <div class="footer">
-            <a href="https://www.instagram.com/sayali_rathod_06/" target="_blank">
-                <img src="instagram.png" alt="Instagram" style="height:100px; width:100px;">
-            </a>
+        <div class="flex">
+            <div class="footer">
+                <a href="https://www.instagram.com/sayali_rathod_06/" target="_blank">
+                    <img src="instagram.png" alt="Instagram" style="height:100px; width:100px;">
+                </a>
+            </div>
+            <div class="footer">
+                <a href="https://www.linkedin.com/in/sayali-rathod-a1432937b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                    target="_blank">
+                    <img src="linkedin.png" alt="LinkedIn" style="height:100px; width:100px;">
+                </a>
+            </div>
+            <div class="footer">
+                <a href="https://github.com/sayali-rathod-07" target="_blank">
+                    <img src="github.png" alt="GitHub" style="height:100px; width:100px;">
+                </a>
+            </div>
+            <div class="footer">
+                <a href="mailto:sayalirathod9966@gmail.com" target="_blank">
+                    <img src="mail.png" alt="Contact Me" style="height:100px; width:100px;">
+                </a>
+            </div>
         </div>
-        <div class="footer">
-            <a href="https://www.linkedin.com/in/sayali-rathod-a1432937b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
-                <img src="linkedin.png" alt="LinkedIn" style="height:100px; width:100px;">
-            </a>
-        </div>
-        <div class="footer">
-            <a href="https://github.com/sayali-rathod-07" target="_blank">
-                <img src="github.png" alt="GitHub" style="height:100px; width:100px;">
-            </a>
-        </div>
-        <div class="footer">
-            <a href="mailto:sayalirathod9966@gmail.com" target="_blank">
-                <img src="mail.png" alt="Contact Me" style="height:100px; width:100px;">
-            </a>
-        </div>
-    </div>
-</footer>
+    </footer>
 </body>
+
 </html>
