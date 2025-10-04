@@ -10,6 +10,7 @@
         rel="stylesheet">
 
     <style>
+        html { scroll-behavior: smooth; }
         .projects {
             display: flex;
             flex-direction: column;
@@ -115,11 +116,23 @@
             display: flex;
             justify-content: center;
         }
+       
+        nav .right ul {
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+            align-items: center;
+        }
 
         nav ul li {
             list-style: none;
             margin: 0 23px;
             color: rgb(106, 106, 237);
+           
+        }
+         nav-right  {
+            display:flex;
+            flex-wrap: wrap;
         }
 
         nav ul li:hover {
@@ -160,7 +173,7 @@
         }
 
         .leftSection {
-            /* background-color: red; */
+            
             font-size: 3rem;
             margin-top: 30px 0;
         }
@@ -433,13 +446,13 @@
                 <bold>Sayali's</bold> Portfolio
             </div>
             <div class="right">
-                <ul>
-                    <li> <a href="/"> Home</a></li>
-                    <li> <a href="#firstSection"> About</a></li>
-                    <li> <a href="/"> Services</a></li>
-                    <li> <a href="/"> Projects</a></li>
-                    <li> <a href="/"> Contact Me</a></li>
-                </ul>
+                                <ul>
+                                    <li> <a href="/"> Home</a></li>
+                                        <li> <a href="#firstSection"> About</a></li>
+                                        <li> <a href="/"> Services</a></li>
+                                        <li> <a href="#projects"> Projects</a></li>
+                                        <li> <a href="#contact"> Contact Me</a></li>
+                                </ul>
             </div>
     </header>
     <main>
@@ -516,7 +529,7 @@
             </div>
 
         </section>
-        <div class="projects">
+    <div class="projects" id="projects">
             <h1>Projects</h1>
             <div class="project">
                 <h2><a href="https://sayali-rathod-07.github.io/PhotoGallery/">Photo gallery</a></h2>
@@ -570,8 +583,8 @@
             </div>
         </div>
     </main>
-    <footer>
-        <div class="flex">
+        <footer id="contact">
+    <div class="flex">
            
             <div class="footer">
                 <a href="https://www.linkedin.com/in/sayali-rathod-a1432937b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
